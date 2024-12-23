@@ -707,7 +707,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -733,7 +733,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -759,7 +759,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -785,11 +785,11 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
-                    Services: <a href="#">Outpatient Rehabilitation</a>
+                    Services: <a href="/">Outpatient Rehabilitation</a>
                     <a href="#">Occupational Theraphy</a>
                     <a href="#">Physical Theraphy</a>
                     <a href="#">Speech Theraphy</a>
