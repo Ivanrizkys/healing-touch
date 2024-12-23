@@ -1,4 +1,8 @@
+import useEventListeners from "../hooks/useEventListener";
+
 function OccupationalTheraphy() {
+  useEventListeners()
+  
   return (
     <>
       <div className="sidebar">
@@ -13,7 +17,6 @@ function OccupationalTheraphy() {
             src="/images/logo2.png"
             alt="Nuvance Health"
             width="135"
-            height="100"
           />
         </a>
         <nav className="sidebar-navigation">
@@ -405,6 +408,102 @@ function OccupationalTheraphy() {
           </div>
         </div>
       </footer>
+      <div className="popup-search">
+          <button className="popup-search-button-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-x"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+          <form className="popup-search-form">
+            <label htmlFor="search" className="popup-search-input-label">
+              Search
+            </label>
+            <div className="popup-search-input-search">
+              <input
+                type="text"
+                name="search"
+                placeholder="Find a doctor, location or service"
+                className="popup-search-input-search-field"
+              />
+              <span className="popup-search-input-search-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-search"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" />
+                </svg>
+              </span>
+            </div>
+          </form>
+        </div>
+        <div className="menu-mobile">
+          <nav className="menu-mobile-navigation">
+            <a href="#">Services & Treatments</a>
+            <div className="menu-mobile-navigation-divider"></div>
+            <a href="#">Patients & Visitors</a>
+            <div className="menu-mobile-navigation-divider"></div>
+            <a href="#">Locations</a>
+            <div className="menu-mobile-navigation-divider"></div>
+            <a href="#">About Us</a>
+            <a href="#" className="with-icon">
+              <img
+                src="/images/calendar.png"
+                alt="Calendar"
+                width="16"
+                height="18"
+              />
+              Book Online
+            </a>
+            <a href="#" className="with-icon">
+              <img
+                src="/images/padlock.png"
+                alt="Padlock"
+                width="16"
+                height="18"
+              />
+              Patient Portals
+            </a>
+            <a href="#" className="with-icon">
+              <img
+                src="/images/dollar.png"
+                alt="Dollar"
+                width="12"
+                height="19"
+              />
+              Pay Bill
+            </a>
+            <a href="#" className="with-icon">
+              <img
+                src="/images/giving-love.png"
+                alt="Giving Love"
+                width="16"
+                height="15"
+              />
+              Giving
+            </a>
+          </nav>
+        </div>
     </>
   );
 }

@@ -8,6 +8,7 @@ import {
   ref as storageRef,
   uploadBytes,
 } from "firebase/storage";
+import useEventListeners from "../hooks/useEventListener";
 
 function Doctor() {
   const [doctors, setDoctors] = useState([]);
@@ -19,6 +20,8 @@ function Doctor() {
 
   const dataCollectionRef = collection(db, "doctors");
 
+  useEventListeners()
+  
   useEffect(() => {
     const unSubscribe = onSnapshot(dataCollectionRef, (snapshot) => {
       const data = snapshot.docs.map((doc) => ({

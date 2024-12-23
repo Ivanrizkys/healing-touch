@@ -1,4 +1,8 @@
+import useEventListeners from "../hooks/useEventListener";
+
 export default function SpeechLanguage() {
+  useEventListeners()
+  
   return (
     <>
       <div className="sidebar">
@@ -13,7 +17,6 @@ export default function SpeechLanguage() {
             src="/images/logo2.png"
             alt="Nuvance Health"
             width="135"
-            height="100"
           />
         </a>
         <nav className="sidebar-navigation">

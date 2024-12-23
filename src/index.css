@@ -409,6 +409,7 @@ usha h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 24px;
 }
 .related-locations-navigations {
   display: flex;

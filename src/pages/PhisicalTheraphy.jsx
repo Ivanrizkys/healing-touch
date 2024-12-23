@@ -1,4 +1,8 @@
+import useEventListeners from "../hooks/useEventListener";
+
 function PhysicalTheraphy() {
+  useEventListeners()
+  
   return (
     <>
       <div className="sidebar">

@@ -696,6 +696,7 @@ function Home() {
               </div>
             </div>
             <TinySlider settings={settings}>
+            <div>
               <article className="related-location-card">
                 <img
                   src="/images/banner-preview.png"
@@ -706,7 +707,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -720,6 +721,8 @@ function Home() {
                   </p>
                 </div>
               </article>
+            </div>
+            <div>
               <article className="related-location-card">
                 <img
                   src="/images/banner-preview.png"
@@ -730,7 +733,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -744,6 +747,8 @@ function Home() {
                   </p>
                 </div>
               </article>
+            </div>
+            <div>
               <article className="related-location-card">
                 <img
                   src="/images/banner-preview.png"
@@ -754,7 +759,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -768,6 +773,8 @@ function Home() {
                   </p>
                 </div>
               </article>
+            </div>
+            <div>
               <article className="related-location-card">
                 <img
                   src="/images/banner-preview.png"
@@ -778,7 +785,7 @@ function Home() {
                 <div className="related-location-card-content">
                   <h3>Lorem Ipsum</h3>
                   <p className="related-location-card-content-address">
-                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
+                    551 Route 22, Pawling, NY 12564 (845) 855-7300 TTY (800)
                     421-1220
                   </p>
                   <p className="related-location-card-content-services">
@@ -792,6 +799,7 @@ function Home() {
                   </p>
                 </div>
               </article>
+            </div>
             </TinySlider>
           </section>
         </main>
@@ -910,7 +918,7 @@ function Home() {
             <a href="#">About Us</a>
             <a href="#" className="with-icon">
               <img
-                src="./assets/images/calendar.png"
+                src="/images/calendar.png"
                 alt="Calendar"
                 width="16"
                 height="18"
@@ -919,7 +927,7 @@ function Home() {
             </a>
             <a href="#" className="with-icon">
               <img
-                src="./assets/images/padlock.png"
+                src="/images/padlock.png"
                 alt="Padlock"
                 width="16"
                 height="18"
@@ -928,7 +936,7 @@ function Home() {
             </a>
             <a href="#" className="with-icon">
               <img
-                src="./assets/images/dollar.png"
+                src="/images/dollar.png"
                 alt="Dollar"
                 width="12"
                 height="19"
@@ -937,7 +945,7 @@ function Home() {
             </a>
             <a href="#" className="with-icon">
               <img
-                src="./assets/images/giving-love.png"
+                src="/images/giving-love.png"
                 alt="Giving Love"
                 width="16"
                 height="15"
