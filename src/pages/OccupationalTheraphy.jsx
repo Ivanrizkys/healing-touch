@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import Sidebar from "../components/Sidebar";
 import useEventListeners from "../hooks/useEventListener";
 
 function OccupationalTheraphy() {
@@ -5,65 +7,7 @@ function OccupationalTheraphy() {
   
   return (
     <>
-      <div className="sidebar">
-        <a className="sidebar-header" href="/">
-          <img
-            src="/images/logo.png"
-            alt="Logo"
-            width="87"
-            height="54.49"
-          />
-          <img
-            src="/images/logo2.png"
-            alt="Nuvance Health"
-            width="135"
-          />
-        </a>
-        <nav className="sidebar-navigation">
-          <a href="#">Services & Treatments</a>
-          <div className="sidebar-navigation-divider"></div>
-          <a href="#">Consultaion Fee Structure</a>
-          <div className="sidebar-navigation-divider"></div>
-
-          <a href="#">About Us</a>
-          <a href="#" className="with-icon">
-            <img
-              src="/images/calendar.png"
-              alt="Calendar"
-              width="16"
-              height="18"
-            />
-            Content
-          </a>
-          <a href="#" className="with-icon">
-            <img
-              src="/images/padlock.png"
-              alt="Padlock"
-              width="16"
-              height="18"
-            />
-            Content
-          </a>
-          <a href="#" className="with-icon">
-            <img
-              src="/images/dollar.png"
-              alt="Dollar"
-              width="12"
-              height="19"
-            />
-            Content
-          </a>
-          <a href="#" className="with-icon">
-            <img
-              src="/images/giving-love.png"
-              alt="Giving Love"
-              width="16"
-              height="15"
-            />
-            Content
-          </a>
-        </nav>
-      </div>
+      <Sidebar />
       <div className="content">
         <div className="space-top-mobile"></div>
         <div className="navbar">
@@ -361,53 +305,8 @@ function OccupationalTheraphy() {
             </p>
           </section>
         </main>
+      <Footer />
       </div>
-      <footer className="footer">
-        <div className="footer-content">
-          <div className="footer-content-work-with">
-            <h2>JOIN US ON SOCIAL MEDIA</h2>
-            <div className="footer-content-social-media">
-              <a href="#">
-                <img src="/icons/instagram.svg" alt="Instagram"
-                width="70"
-                height="70"
-                />
-              </a>
-              <a href="#">
-                <img src="/icons/facebook.svg" alt="Facebook" 
-                width="70"
-                height="70"
-                />
-              </a>
-              <a href="#">
-                <img src="/icons/linkedin.svg" alt="Linkedin" 
-                width="70"
-                height="70"
-                />
-              </a>
-              <a href="#">
-                <img src="/icons/youtube.svg" alt="Youtube"
-                width="70"
-                height="70"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="footer-divider"></div>
-        <div className="footer-term-links">
-          <div className="footer-term-links-copyright">
-            <p>@2024 Healing Touch Polyclinic</p>
-          </div>
-          <div className="footer-term-links-item">
-            <a href="#">Term of Use</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Sitemap</a>
-            <a href="#">Compliance</a>
-            <a href="#">Price Transparancy</a>
-          </div>
-        </div>
-      </footer>
       <div className="popup-search">
           <button className="popup-search-button-close">
             <svg
